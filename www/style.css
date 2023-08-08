@@ -1,0 +1,31 @@
+/*
+ * Base Tag Formatting
+ */
+
+.fig-desc {
+  width: 100%;
+  text-align: center;
+}
+
+.fig-div {
+  width: 50%;
+  float: left;
+  justify-content: center;
+  display: flex;
+}
+
+.desc-div {
+  margin-left: 50%;
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.instruct {
+  width: 100%;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.para-1 {
+  font-size: 1.3em;
+}

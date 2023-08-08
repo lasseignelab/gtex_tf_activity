@@ -27,7 +27,7 @@ ui <- fluidPage(
     h3("Activity Score Calculation and Information"),
     p(
       class = "para-1",
-      "This application created by the",
+      "This application was created by the",
       a(href = "https://www.lasseigne.org", "Lasseigne Lab", target = "_blank"), # opens in a new tab 
       "enables researchers to investigate the TF Activity of 758
       transcription factors (TFs) from the Genotype-Tissue Expression (GTEx) project
@@ -66,19 +66,15 @@ ui <- fluidPage(
         tags$li(
           "We used a multivariate linear model (run_mlm) implemented in", 
           a(href = "https://saezlab.github.io/decoupleR/", "decoupleR", target = "_blank"),
-          "with a minimum threshold of 5 targets per TF to calculate activity scores (i.e., t-values) for all TFs."
+          "with a minimum threshold of 5 targets per TF to infer activity scores (i.e., t-values) for all TFs (y-axis)."
           
         ),
         tags$li(
           "We scaled and centered data prior to summarizing the averaged regulator activity for each TF.",
         ),
         tags$li(
-          "TF activity scores are represented on a scale from positive to negative corresponding to activation and inactivation of TFs."
+          "TF activity scores are represented on a scale from positive to negative corresponding to activator and repressor TF roles, respectively."
           ,         
-        ),
-        tags$li(
-          "Positive and negative scores correspond to activator and repressor TF roles, respectively.",
-        )
       ),
       br(),
       p(
@@ -86,7 +82,7 @@ ui <- fluidPage(
         a(href = "https://www.gtexportal.org/home/", "website", target = "_blank")
       )
     )
-  ),  # Closing parenthesis added here to properly close the div
+  ),  # Closing parenthesis added here to close the div properly
   br(),
   br(),
   hr(),

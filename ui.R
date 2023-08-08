@@ -27,7 +27,7 @@ ui <- fluidPage(
     h3("Activity Score Calculation and Information"),
     p(
       class = "para-1",
-      "This application was created by the",
+      "This application created by the",
       a(href = "https://www.lasseigne.org", "Lasseigne Lab", target = "_blank"), # opens in a new tab 
       "enables researchers to investigate the TF Activity of 758
       transcription factors (TFs) from the Genotype-Tissue Expression (GTEx) project

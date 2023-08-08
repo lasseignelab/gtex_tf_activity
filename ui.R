@@ -64,7 +64,8 @@ ui <- fluidPage(
           a(href = "https://github.com/saezlab/CollecTRI", "CollecTRI.", target = "_blank"),
         ),
         tags$li(
-          "We built a multivariate linear model (run_mlm) with", a(href = "https://saezlab.github.io/decoupleR/", "decoupleR", target = "_blank"),
+          "We used a multivariate linear model (run_mlm) implemented in", 
+          a(href = "https://saezlab.github.io/decoupleR/", "decoupleR", target = "_blank"),
           "with a minimum threshold of 5 targets per TF to calculate activity scores (i.e., t-values) for all TFs."
           
         ),
@@ -72,7 +73,7 @@ ui <- fluidPage(
           "We scaled and centered data prior to summarizing the averaged regulator activity for each TF.",
         ),
         tags$li(
-          "TF Activity scores are represented on a scale from positive to negative corresponding to activation and inactivation of TFs."
+          "TF activity scores are represented on a scale from positive to negative corresponding to activation and inactivation of TFs."
           ,         
         ),
         tags$li(

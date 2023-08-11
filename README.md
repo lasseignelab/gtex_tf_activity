@@ -4,7 +4,7 @@
 This repository contains all the GTEx TF Activity Shiny Application code. The interactive web page can be accessed at: https://lasseignelab.shinyapps.io/gtex_tf_activity/
 
 ## Citation 
-> placeholder
+> Whitlock, Jordan H., Elizabeth J. Wilk, Timothy C. Howton, Amanda D. Clark, and Brittany N. Lasseigne. 2023. “The Landscape of SETBP1 Gene Expression and Transcription Factor Activity across Human Tissues.” bioRxiv. https://doi.org/10.1101/2023.08.08.551337.
 
 Additional information on the main paper and code generating the data underlying this application can be found [here](https://github.com/lasseignelab/230323_JW_DiseaseNetworks)
 

@@ -73,7 +73,7 @@ ui <- fluidPage(
           "We scaled and centered data prior to summarizing the averaged regulator activity for each TF."
         ),
         tags$li(
-          "TF activity scores are represented on a scale from positive to negative corresponding to activator and repressor TF roles, respectively."
+          "TF activity scores are represented on a scale from positive to negative corresponding to active and inactive TF roles, respectively."
         ),
         br(),
         p(
